@@ -18,10 +18,10 @@ This project works through that problem end to end:
 Both models are implemented in Excel.
 
 ## Monte Carlo simulation — demand uncertainty
-A point forecast tells you the *expected* demand. Monte Carlo simulation tells you the *distribution* of possible demand outcomes.
+A point forecast tells you the *expected* demand. Monte Carlo simulation tells you the distribution of possible demand outcomes.
 
 ![Monte Carlo results](fig3_monte_carlo.png)
-**Key finding:** Stocking to the point forecast alone results in stockouts ~45% of the time during high-demand periods. Stocking to the MC 95th percentile raises the fill rate to 95%+ with a manageable increase in holding cost.
+**Key finding:** Stocking to the point forecast alone results in stockouts 45% of the time during high-demand periods. Stocking to the MC 95th percentile raises the fill rate to 95%+ with a manageable increase in holding cost.
 
 ## EOQ optimization 
 
