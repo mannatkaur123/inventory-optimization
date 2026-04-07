@@ -19,6 +19,7 @@ Both models are implemented in Excel.
 
 ## Monte Carlo simulation — demand uncertainty
 A point forecast tells you the *expected* demand. Monte Carlo simulation tells you the *distribution* of possible demand outcomes.
+
 ![Monte Carlo results](fig3_monte_carlo.png)
 **Key finding:** Stocking to the point forecast alone results in stockouts ~45% of the time during high-demand periods. Stocking to the MC 95th percentile raises the fill rate to 95%+ with a manageable increase in holding cost.
 
@@ -30,6 +31,7 @@ inventory cost, which has two competing components:
 - **Holding cost** increases as order size increases
   
 Excel Solver was used to minimize the total cost function by changing the order quantity. 
+
 ![EOQ curve](fig1_eoq_curve.png)
 
 ## Scenario analysis — 18 strategies compared
@@ -39,4 +41,5 @@ Evaluated every combination of:
 - **Service level:** 80%, 90%, 95%, 99%
 - **Lead time:** 14, 21, or 30 days
 Each was scored on ordering cost, holding cost, and total annual cost.
+
 ![Scenario analysis](fig2_scenario_analysis.png)
